@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "997011644542",
+    "firebase_url": "https://photoapps-dbebf-default-rtdb.firebaseio.com",
+    "project_id": "photoapps-dbebf",
+    "storage_bucket": "photoapps-dbebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997011644542:android:c594556ad819856689b82f",
+        "android_client_info": {
+          "package_name": "com.example.photoapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997011644542-5r10pbekamk2bgki7gc27e28pts296r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.photoapps",
+            "certificate_hash": "5ab7abf64b448b70e54e267fb70689cc6a429f65"
+          }
+        },
+        {
+          "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatnKWJi3oAhA8A7Oe2dPx79yX2L-eQAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997011644542:android:c7b633726d62b6e589b82f",
+        "android_client_info": {
+          "package_name": "com.example.photoappsver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatnKWJi3oAhA8A7Oe2dPx79yX2L-eQAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997011644542:android:4ce45b889959599589b82f",
+        "android_client_info": {
+          "package_name": "com.example.photoappsver3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatnKWJi3oAhA8A7Oe2dPx79yX2L-eQAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997011644542:android:696a35e1285606c089b82f",
+        "android_client_info": {
+          "package_name": "com.example.photoeditingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatnKWJi3oAhA8A7Oe2dPx79yX2L-eQAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997011644542-ffj6u1ce614975t2v06b4agnh5n9e3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

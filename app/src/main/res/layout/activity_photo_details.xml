@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PhotoDetailsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/lavender_border"
+        >
+        <ImageView
+            android:id="@+id/image_preview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:padding="16dp"
+            android:src="@drawable/upload_icon"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/upload_caption"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Caption"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:paddingVertical="25dp"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:src="@drawable/back_icon"
+                android:layout_height="60dp"
+                android:id="@+id/back_btn"
+                android:background="@color/lavender"
+                />
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:src="@drawable/edit_icon"
+                android:layout_height="60dp"
+                android:id="@+id/edit_image_btn"
+                android:background="@color/lavender"
+                />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Edit image"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:src="@drawable/save_icon"
+                android:layout_height="60dp"
+                android:id="@+id/save_image"
+                android:background="@color/lavender"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Save image"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
